@@ -12,4 +12,9 @@ spring:
   profiles: test    #测试环境
   application: 
     name: mycloud-config-curou-test
+---
+spring:
+  profiles: pro    #生产环境
+  application: 
+    name: mycloud-config-curou-pro
 #  请保存为UTF-8格式
